@@ -1,0 +1,19 @@
+
+{
+  "manifest_version": 3,
+  "name": "Tab Title Fetcher",
+  "version": "1.0",
+  "description": "Fetches and displays the title of the current tab.",
+  "permissions": [
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "tab.html",
+    "default_icon": {
+      "16": "/icons/icon_16.webp",
+      "48": "/icons/icon_48.webp",
+      "128": "/icons/icon_128.webp"
+    }
+  }
+  
+}
